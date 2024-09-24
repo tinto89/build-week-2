@@ -1,0 +1,50 @@
+:root {}
+
+
+main {
+    margin: 0px;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+p {
+    margin: 0;
+}
+/*HOVER LIKE BUTTON*/
+.heart .heart-fill {
+   
+    fill: #00000000;
+}
+
+.heart .heart-outline {
+    fill: #000000;
+}
+
+.heart .heart-outline,
+.heart .heart-fill {
+    transition-property: fill;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+#heart:hover {
+    cursor: pointer;
+}
+
+
+#heart:hover .heart-fill,
+#heart:hover .heart-outline {
+    fill: #ff0000;
+}
+.small-img > div >   img{
+  max-height: 50%;
+  
+ 
+}
+.big-img div img{
+    max-height: fit-content;
+}

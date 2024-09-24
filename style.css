@@ -1,4 +1,23 @@
-h1{
-    font-size:7rem;
-    font-weight: bolder;
+nav {
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+#wrapper {
+  height: 80vh;
+  background-color: black;
+  background-image: url(./assets/home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position-y: 50%;
+}
+
+.main-bar {
+  width: 800px;
+  height: 60px;
 }

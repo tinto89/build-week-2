@@ -1,50 +1,41 @@
-:root {}
-
-
-main {
-    margin: 0px;
+:root {
 }
 
-@media screen and (min-width: 900px) {
-    main {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
+main {
+  margin: 0px;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 /*HOVER LIKE BUTTON*/
 .heart .heart-fill {
-   
-    fill: #00000000;
+  fill: #00000000;
 }
 
 .heart .heart-outline {
-    fill: #000000;
+  fill: #000000;
 }
 
 .heart .heart-outline,
 .heart .heart-fill {
-    transition-property: fill;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
+  transition-property: fill;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 #heart:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 #heart:hover .heart-fill,
 #heart:hover .heart-outline {
-    fill: #ff0000;
+  fill: #ff0000;
 }
-.small-img > div >   img{
-  max-height: 50%;
-  
- 
+
+.radius1 {
+  border-top-right-radius: 1.2rem;
 }
-.big-img div img{
-    max-height: fit-content;
+
+.radius2 {
+  border-bottom-right-radius: 1.2rem;
 }

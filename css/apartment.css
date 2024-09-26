@@ -1,12 +1,19 @@
 :root {
+  --bordi-img:1.2rem;
+  --no-margin:0px;
+  --grassetto:bold
 }
 
 main {
-  margin: 0px;
+  margin:var(--no-margin)
 }
+h1,h2,h3,h4,h5,h6{font-weight: bold;}
+
+h6,.p-piccolo{font-size: small;}
+.user-div h6,p{font-size: xx-small;}
 
 p {
-  margin: 0;
+  margin:var(--no-margin)
 }
 /*HOVER LIKE BUTTON*/
 .heart .heart-fill {
@@ -33,9 +40,14 @@ p {
 }
 
 .radius1 {
-  border-top-right-radius: 1.2rem;
+  border-top-right-radius:var(--bordi-img)
 }
 
 .radius2 {
-  border-bottom-right-radius: 1.2rem;
-}
+  border-bottom-right-radius:var(--bordi-img)}
+
+  #date_price{ height: 11rem;
+  width: 18rem;
+border: solid 1px black;}
+
+

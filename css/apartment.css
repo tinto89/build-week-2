@@ -68,7 +68,11 @@ p {
   height: 14rem;
   width: 20rem;
   border: solid 1px black;
+  -webkit-box-shadow: 9px 7px 18px -1px rgba(0,0,0,0.63); 
+box-shadow: 9px 7px 18px -1px rgba(0,0,0,0.63);
 }
+  
+
 
 @media screen and (max-width: 766px) {
   #bigImage {
